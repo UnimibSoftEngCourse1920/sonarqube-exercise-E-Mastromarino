@@ -42,8 +42,7 @@ public class ActiveTestSuite extends TestSuite {
             @Override
             public void run() {
                 try {
-                    // inlined due to limitation in VA/Java This block of commented-out lines of code should be removed risolto.
-                    
+                    // inlined due to limitation in VA/Java //This block of commented-out lines of code should be removed risolto.
                     test.run(result);
                 } finally {
                     ActiveTestSuite.this.runFinished();
@@ -62,7 +61,7 @@ public class ActiveTestSuite extends TestSuite {
             }
         }
     }
-
+//Modifiers should be declared in the correct order falso positivo perche non è un public ma un synchronized
     synchronized public void runFinished() {
         fActiveTestDeathCount++;
         notifyAll();
