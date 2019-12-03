@@ -10,7 +10,7 @@ public class ComparisonFailure extends AssertionFailedError {
     private static final long serialVersionUID = 1L;
 
     private final String fExpected;
-    private String fActual;
+    private final String fActual;
 
     /**
      * Constructs a comparison failure.
