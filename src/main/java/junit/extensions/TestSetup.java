@@ -32,7 +32,7 @@ public class TestSetup extends TestDecorator {
      */
     
     protected void setUp() throws Exception {
-        //andrà ripreso successivamente
+        //andra ripreso successivamente
     }
 
     /**

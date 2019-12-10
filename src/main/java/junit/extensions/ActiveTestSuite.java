@@ -61,7 +61,7 @@ public class ActiveTestSuite extends TestSuite {
             }
         }
     }
-//Modifiers should be declared in the correct order falso positivo perche non è un public ma un synchronized
+//Modifiers should be declared in the correct order falso positivo perche non e un public ma un synchronized
     synchronized public void runFinished() {
         fActiveTestDeathCount++;
         notifyAll();
